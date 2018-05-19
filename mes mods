@@ -1,0 +1,63 @@
+mods area protect :
+https://github.com/ShadowNinja/areas
+
+-création d'une zone carré en installant deux coins
+-de base cela protege aux autres utilisateurs de ne pas casser la zone 
+-etape 1 ->/area_pos set ..... faire direct en étape 2 -> /protect <nom de la zone>
+
+
+mod homedecor_pack
+https://forum.minetest.net/viewtopic.php?f=11&t=2041
+fourni des nouveaux objets de déco interieur
+
+
+mod sign 
+https://github.com/PilzAdam/signs
+pour des panneaux
+
+
+mod cube-nodes
+https://github.com/Andrey2470T/Cube-Nodes
+
+
+mod travelnet
+https://github.com/Sokomine/travelnet
+pour creer telepoteur et ascenseur
+
+- craft it by filling the right and left row with glass; place in the middle row (from top to bottom): steel, mese, steel
+- place the travelnet box somewhere
+- right-click on it; enter name of the station (e.g. "my house", "center of desert city") and name of the network (e.g. "intresting towns","my buildings")
+- punch it to update the list of stations on that network
+- right-click to use the travelbox
+
+
+mod edit
+https://github.com/minetest-mods/edit
+
+permet de faire copier coller de blocks sur une mm map + remplissage d'une zone par un type de block
+
+mod gemalde
+https://github.com/CasimirKaPazi/gemalde
+
+permet d'ajouter des images sur la carte en ajoutant une image dans le dossier texture, renomer les images en gemalde_<un nombre>
+pour changer taille de l'image aller dans le doc still ou animated puis modifier la ligner "visual_scale = 3.0,"
+Features:
+
+- maximal size: 3x3 nodes
+- maximal size in pixel: none
+- adding more paintings is very easy (no lua required)
+- switch through paintings by rightclick on it
+- switch backwards through paintings by crafting (reduce paintings number by one)
+- animated paintings
+
+
+
+
+mod checkpoint
+https://github.com/taikedz/everamzah-checkpoint
+
+permet grace à deux objets (un teleporter et un checkpoint), de creer des checkpoints et de s'y teleporter
+fonctionnement : il faut casser le checkpoint ou click droit dessus, puis utiliser le teleporter pour revenir dessus.
+fonctionne même si un zone de protection est activé avec area protect
+
+
